@@ -1,0 +1,144 @@
+pics
+[0, 1, 2, 3]
+Using TensorFlow backend.
+2018-11-23 00:56:46.316007: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.4805
+pciBusID: 0003:01:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-11-23 00:56:46.316128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:46.316726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.4805
+pciBusID: 0002:01:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-11-23 00:56:46.317110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:46.319539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.4805
+pciBusID: 000a:01:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-11-23 00:56:46.319604: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:46.320096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.4805
+pciBusID: 000b:01:00.0
+totalMemory: 15.90GiB freeMemory: 15.61GiB
+2018-11-23 00:56:46.320175: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:48.826113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:48.826181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:48.826198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:48.826789: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 000b:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:48.835081: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:48.835146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:48.835173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:48.837241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:48.837287: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:48.837310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:48.839785: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:48.839812: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:48.839830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:48.852571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 000a:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:48.852974: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:48.853417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0002:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:58.102751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:58.102904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:58.102922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:58.102936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:58.103270: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0002:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:58.138419: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:58.138504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:58.138520: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:58.138534: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:58.138787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 000b:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:58.141498: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:58.141566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:58.141582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:58.141596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:58.141834: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0, compute capability: 6.0)
+2018-11-23 00:56:58.148535: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-11-23 00:56:58.148601: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-11-23 00:56:58.148616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-11-23 00:56:58.148630: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-11-23 00:56:58.148873: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 15129 MB memory) -> physical GPU (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 000a:01:00.0, compute capability: 6.0)
+run 1
+initialize Keras Inception for gpu 1
+initialize done with gpu 1
+inception done  1
+run 3
+initialize Keras Inception for gpu 3
+initialize done with gpu 3
+inception done  3
+run 0
+initialize Keras Inception for gpu 0
+initialize done with gpu 0
+inception done  0
+run 2
+initialize Keras Inception for gpu 2
+initialize done with gpu 2
+inception done  2
+all of workers have been done
+sgc05
+Fri Nov 23 00:57:45 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.44                 Driver Version: 396.44                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-SXM2...  On   | 00000002:01:00.0 Off |                    0 |
+| N/A   36C    P0    48W / 300W |      0MiB / 16280MiB |     37%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P100-SXM2...  On   | 00000003:01:00.0 Off |                    0 |
+| N/A   33C    P0    47W / 300W |      0MiB / 16280MiB |     24%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla P100-SXM2...  On   | 0000000A:01:00.0 Off |                    0 |
+| N/A   33C    P0    48W / 300W |      0MiB / 16280MiB |     39%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla P100-SXM2...  On   | 0000000B:01:00.0 Off |                    0 |
+| N/A   30C    P0    44W / 300W |      0MiB / 16280MiB |     36%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+*********GPU usage report: (empty if GPU is not used)*********
+=== GPU 0 ===
+sgc05: pid, time [ms], gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB]
+sgc05: 141004, 59136 ms, 13 %, 1 %, 15625 MiB
+sgc05: 1595, 59388 ms, 13 %, 1 %, 0 MiB
+=== GPU 1 ===
+sgc05: pid, time [ms], gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB]
+sgc05: 141005, 59081 ms, 12 %, 1 %, 15625 MiB
+sgc05: 1595, 59165 ms, 12 %, 1 %, 0 MiB
+=== GPU 2 ===
+sgc05: pid, time [ms], gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB]
+sgc05: 141006, 59119 ms, 11 %, 0 %, 15625 MiB
+sgc05: 1595, 59347 ms, 13 %, 1 %, 0 MiB
+=== GPU 3 ===
+sgc05: pid, time [ms], gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB]
+sgc05: 141007, 59044 ms, 13 %, 1 %, 15625 MiB
+sgc05: 1595, 59168 ms, 12 %, 1 %, 0 MiB
+**************************************************************
+scontrol show jobid 23634
+JobId=23634 JobName=inc4x.script
+   UserId=andrevr(3073897) GroupId=vida(3031344) MCS_label=N/A
+   Priority=1678829 Nice=0 Account=2-079 QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:01:29 TimeLimit=00:40:00 TimeMin=N/A
+   SubmitTime=2018-11-22T16:43:09 EligibleTime=2018-11-22T16:43:09
+   StartTime=2018-11-23T00:56:16 EndTime=2018-11-23T00:57:45 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   Partition=medium AllocNode:Sid=sgc01:135082
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=sgc05
+   BatchHost=sgc05
+   NumNodes=1 NumCPUs=160 NumTasks=20 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=160,node=1,gres/gpu=4
+   Socks/Node=* NtasksPerN:B:S:C=20:0:*:* CoreSpec=*
+   MinCPUsNode=20 MinMemoryNode=0 MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=gpu:4 Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+
