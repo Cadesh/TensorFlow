@@ -6,7 +6,8 @@ Keras and RetinaNet with pretrained datasets as CoCo and InceptionV3.
 Check the .odt documents for more information on how to install  
 and run the examples in RedHat and Ubuntu.
  
-![Output from RetinaNetTest code:](https://github.com/Cadesh/TensorFlow/blob/master/RetinaNetTest/outputExample.jpg){:height="60%" width="60%"}
+![](https://github.com/Cadesh/TensorFlow/blob/master/RetinaNetTest/outputExample.jpg | width=100)
+
 
 
 
