@@ -26,7 +26,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import keras
 
 # import miscellaneous modules
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt #uncomment this line to show the picture. 
 import numpy as np
 
 # set tf backend to allow memory to grow, instead of claiming everything
@@ -103,10 +103,10 @@ while i < len(images):
     print ('IMAGE: ', labels[i])
     print ('----------------')
 
-    plt.figure(figsize=(4, 4))
-    plt.axis('off')
-    plt.imshow(img)
-    plt.show()
+    #plt.figure(figsize=(4, 4)) #uncomment these lines to show the picture
+    #plt.axis('off')
+    #plt.imshow(img)
+    #plt.show()
 
     for index, res in enumerate(decode_predictions(y)[0]):
         print('{}. {}: {:.3f}%'.format(index + 1, res[1], 100 * res[2])) #res[1] category, res[2] probability
