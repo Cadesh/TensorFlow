@@ -52,18 +52,14 @@ virtualenv catenv
 source catenv/bin/activate
 #INSTALL PYTHON MODULES
 echo -e "\e[96mINSTALL PYTHON MODULES\e[39m"
-pip install numpy==1.14.5
-pip install Pillow==2.2.1
-pip install youtube_dl==2019.7.16
-pip install tensorflow==1.11
-pip install Keras==2.2.4
-pip install opencv-python==4.1.0.25
-pip install python-vlc==3.0.6109
-#pip install python-daemon==2.2.3 # used to run the categorizer as a daemon
+pip install Pillow==6.0.0
+pip install tensorflow==1.10
+pip install Keras==2.1.6
+
 #---------------------------------------------------------------------------
 #
 #---------------------------------------------------------------------------
-echo -e "\e[96mNOW ACTIVATE THE VIRTUAL ENV WITH COMMAND \e[39m"
+echo -e "\e[96mNOW ACTIVATE THE VIRTUAL ENV WITH COMMAND source ./catenv/bin/activate \e[39m"
 #---------------------------------------------------------------------------
 
 # #---------------------------------------------------------------------------
